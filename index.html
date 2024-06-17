@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galery shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">galery</h2>
+                <p class="sub-heading">Pria & wanita</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 200k</h4>
+                <p class="item">Pria</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 150k</h4>
+                <p class="item">wanita</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>galery</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Galery Hp</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div class="services">
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>Latihan</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quam tenetur sit, hic natus et adipisci sint culpa aperiam aut!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>tutorial</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quam tenetur sit, hic natus et adipisci sint culpa aperiam aut!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>paktik</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quam tenetur sit, hic natus et adipisci sint culpa aperiam aut!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeri"><section>
+            <div class="services">
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>Latihan</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quam tenetur sit, hic natus et adipisci sint culpa aperiam aut!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>tutorial</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quam tenetur sit, hic natus et adipisci sint culpa aperiam aut!
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>paktik</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quam tenetur sit, hic natus et adipisci sint culpa aperiam aut!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeri">
+            <h2>gambar</h2>
+            <img src="cincin.jpeg" alt="">
+        </section>
+
+            <h2>gambar</h2>
+            <img src="cincin.jpeg" alt="">
+        </section>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
